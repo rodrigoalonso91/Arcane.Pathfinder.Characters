@@ -2,7 +2,10 @@
 {
     public abstract class Character
     {
-        public string CharacterName { get; set; }
-        public string PlayerName { get; set; }
+        private readonly int Strength;
+        private readonly int Dexterity;
+
+        public string CharacterName { get; set; } = "Nameless";
+        public string PlayerName { get; set; } = "Player";
     }
 }
