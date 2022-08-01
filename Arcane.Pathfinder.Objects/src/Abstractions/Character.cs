@@ -1,4 +1,4 @@
-﻿namespace Arcane.Pathfinder.Objects.Abstractions
+﻿namespace Arcane.Pathfinder.Objects.src.Abstractions
 {
     public abstract class Character
     {
