@@ -2,6 +2,7 @@
 {
     public class SizeModifier
     {
+        // Creado para referencia, despues se va especificar si es bonus o penalty mod.
         // The special size modifier for both defense and attack
         public const int Colossal = 8;
         public const int Gargantuan = 4;
