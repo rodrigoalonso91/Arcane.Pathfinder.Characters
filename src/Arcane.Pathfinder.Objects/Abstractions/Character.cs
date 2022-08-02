@@ -1,4 +1,4 @@
-﻿using Arcane.Pathfinder.Objects.BaseFeatures;
+﻿using Arcane.Pathfinder.Objects.Utils;
 
 namespace Arcane.Pathfinder.Objects.Abstractions
 {

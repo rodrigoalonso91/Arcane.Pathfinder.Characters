@@ -1,4 +1,4 @@
-﻿namespace Arcane.Pathfinder.Objects.BaseFeatures
+﻿namespace Arcane.Pathfinder.Objects.Utils
 {
     public enum Size
     {
