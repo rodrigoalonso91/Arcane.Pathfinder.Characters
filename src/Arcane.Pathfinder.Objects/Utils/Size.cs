@@ -1,6 +1,6 @@
 ﻿namespace Arcane.Pathfinder.Objects.Utils
 {
-    public enum Size
+    public enum CharacterSize
     {
         Fine = 0,
         Diminutive = 1,

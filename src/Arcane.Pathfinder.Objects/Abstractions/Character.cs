@@ -9,6 +9,6 @@ namespace Arcane.Pathfinder.Objects.Abstractions
 
         public string CharacterName { get; set; } = "Nameless";
         public string PlayerName { get; set; } = "Player";
-        public Size CharacterSize { get; set; }
+        public CharacterSize Size { get; set; }
     }
 }
