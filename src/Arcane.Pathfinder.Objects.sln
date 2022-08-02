@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arcane.Pathfinder.Objects", "Arcane.Pathfinder.Objects\Arcane.Pathfinder.Objects.csproj", "{E2D38088-9CE0-4956-84E7-8C4B140D3BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arcane.Pathfinder.Objects", "Arcane.Pathfinder.Objects\Arcane.Pathfinder.Objects.csproj", "{E2D38088-9CE0-4956-84E7-8C4B140D3BA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E69C7DF1-8DAC-446F-9AC5-D034F7D98919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2D38088-9CE0-4956-84E7-8C4B140D3BA7} = {E69C7DF1-8DAC-446F-9AC5-D034F7D98919}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D881B0A2-F89A-4D86-B35B-F4CF6644C7EF}
