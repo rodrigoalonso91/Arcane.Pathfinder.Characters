@@ -4,6 +4,7 @@ namespace Arcane.Pathfinder.Objects.Abstractions
 {
     public abstract class Character
     {
+        // Hola
         private readonly int Strength;
         private readonly int Dexterity;
 
