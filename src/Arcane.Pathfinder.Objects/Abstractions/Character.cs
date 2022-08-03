@@ -12,6 +12,8 @@ namespace Arcane.Pathfinder.Objects.Abstractions
         public int Level { get; private set; }
         public int Experience { get; private set; }
         public int HitDice { get; private set; }
+        public int HeroPoints { get; set; }
+        public Alignments Alignment { get; private set; }
         public CharacterSize Size { get; set; }
     }
 }
