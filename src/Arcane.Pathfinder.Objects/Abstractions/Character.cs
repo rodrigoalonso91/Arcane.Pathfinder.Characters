@@ -21,6 +21,6 @@ namespace Arcane.Pathfinder.Objects.Abstractions
         public int HeroPoints { get; set; }
         public Alignments Alignment { get; private set; }
 
-        public Dictionary<string, Skill> CharacterSkills = new();
+        public List<Skill> CharacterSkills = new();
     }
 }
