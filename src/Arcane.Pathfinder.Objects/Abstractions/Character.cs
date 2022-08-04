@@ -1,4 +1,5 @@
-﻿using Arcane.Pathfinder.Objects.Utils;
+﻿using Arcane.Pathfinder.Objects.Models;
+using Arcane.Pathfinder.Objects.Utils;
 
 namespace Arcane.Pathfinder.Objects.Abstractions
 {
@@ -19,5 +20,7 @@ namespace Arcane.Pathfinder.Objects.Abstractions
         public int HitDice { get; private set; }
         public int HeroPoints { get; set; }
         public Alignments Alignment { get; private set; }
+
+        public Dictionary<string, Skill> CharacterSkills = new();
     }
 }
