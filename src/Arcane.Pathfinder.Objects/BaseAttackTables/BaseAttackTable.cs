@@ -6,7 +6,5 @@ namespace Arcane.Pathfinder.Objects.BaseAttackTables
     {
         public int CharacterLevel { get; set; }
         public BaseAttackType BaseAttackType { get; set; }
-
-
     }
 }

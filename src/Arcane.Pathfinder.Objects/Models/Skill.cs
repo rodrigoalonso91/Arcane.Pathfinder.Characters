@@ -1,4 +1,5 @@
 ﻿using Arcane.Pathfinder.Objects.Abstractions;
+using Arcane.Pathfinder.Objects.Utils;
 
 namespace Arcane.Pathfinder.Objects.Models
 {
@@ -9,9 +10,9 @@ namespace Arcane.Pathfinder.Objects.Models
         public int Ranks { get; set; }
         public bool HasArmorPenalty { get; set; }
 
-        public Skill()
+        public Skill(SkillCommon skill)
         {
-
+            SkillName = nameof(skill);
         }
     }
 }
