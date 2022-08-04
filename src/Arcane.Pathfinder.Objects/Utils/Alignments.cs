@@ -1,4 +1,10 @@
-﻿namespace Arcane.Pathfinder.Objects.Utils
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Arcane.Pathfinder.Objects.Utils
 {
     public enum Alignments
     {
@@ -10,6 +16,6 @@
         NeutralEvil,
         ChaoticGood,
         ChaoticEvil,
-        NeutralChaotic
+        ChaoticNeutral,
     }
 }
