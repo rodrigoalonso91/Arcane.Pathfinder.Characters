@@ -9,6 +9,7 @@ namespace Arcane.Pathfinder.Objects.Models
         public bool IsClassSkill { get; set; }
         public int Ranks { get; set; }
         public bool HasArmorPenalty { get; set; }
+        public bool RequieredTraining { get; set; }
 
         public Skill(SkillCommon skill)
         {
