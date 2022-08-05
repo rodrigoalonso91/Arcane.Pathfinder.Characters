@@ -7,6 +7,5 @@ namespace Arcane.Pathfinder.Objects.BaseAttackTables
         High,
         Medium,
         Low,
-
     }
 }
