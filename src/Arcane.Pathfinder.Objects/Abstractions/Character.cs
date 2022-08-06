@@ -14,7 +14,6 @@ namespace Arcane.Pathfinder.Objects.Abstractions
 
         public string CharacterName { get; set; } = "Nameless";
         public string PlayerName { get; set; } = "Player";
-        public CharacterSize Size { get; set; }
         public int Level { get; private set; }
         public int Experience { get; private set; }
         public int HitDice { get; private set; }
