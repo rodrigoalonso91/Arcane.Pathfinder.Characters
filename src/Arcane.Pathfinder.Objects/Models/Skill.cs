@@ -1,5 +1,4 @@
-﻿using Arcane.Pathfinder.Objects.Abstractions;
-using Arcane.Pathfinder.Objects.Utils;
+﻿using Arcane.Pathfinder.Objects.Utils;
 
 namespace Arcane.Pathfinder.Objects.Models
 {
