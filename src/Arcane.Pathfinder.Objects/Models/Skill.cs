@@ -3,7 +3,7 @@ using Arcane.Pathfinder.Objects.Utils;
 
 namespace Arcane.Pathfinder.Objects.Models
 {
-    public class Skill : ISkill
+    public class Skill
     {
         public string SkillName { get; set; } = string.Empty;
         public AttributeTypes AttributeModifier { get; set; }
