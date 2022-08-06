@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Arcane.Pathfinder.Objects.BaseAttackTables
 {
-    internal class BaseAttackLow
+    public class BaseAttackLow
     {
         public const int SecondAttackLevel= 12;
     }
