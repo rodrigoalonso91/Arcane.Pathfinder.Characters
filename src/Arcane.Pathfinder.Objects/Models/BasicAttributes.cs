@@ -1,6 +1,6 @@
 ﻿namespace Arcane.Pathfinder.Objects.Models
 {
-    public class CharacterAttributes
+    public class BasicAttributes
     {
         public int Strength { get; set; }
         public int Dexterity { get; set; }

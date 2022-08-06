@@ -5,7 +5,7 @@ namespace Arcane.Pathfinder.Objects.Abstractions
 {
     public abstract class Character
     {
-        public CharacterAttributes? CharacterAttributes { get; set; }
+        public BasicAttributes? CharacterAttributes { get; set; }
         public string CharacterName { get; set; } = "Nameless";
         public string PlayerName { get; set; } = "Player";
         public int Level { get; private set; }
