@@ -12,7 +12,7 @@ namespace Arcane.Pathfinder.Objects.Races
             Vision = VisionType.LowLight;
             Size = CharacterSize.Medium;
 
-            RaceAtributtes = new CharacterAttributes
+            RaceAtributtes = new BasicAttributes
             {
                 Dexterity = 2,
                 Intelligence = 2,

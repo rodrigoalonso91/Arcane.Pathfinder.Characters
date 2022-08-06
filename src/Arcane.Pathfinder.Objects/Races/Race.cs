@@ -6,7 +6,7 @@ namespace Arcane.Pathfinder.Objects.Races
     public abstract class Race
     {
         public List<string>? Languages;
-        public CharacterAttributes? RaceAtributtes { get; set; }
+        public BasicAttributes? RaceAtributtes { get; set; }
         public CharacterSize Size { get; set; }
         public VisionType Vision { get; set; }
         public int Movement { get; set; }

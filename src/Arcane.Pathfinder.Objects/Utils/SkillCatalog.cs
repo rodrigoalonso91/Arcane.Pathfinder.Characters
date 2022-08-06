@@ -1,8 +1,6 @@
-﻿
-
-namespace Arcane.Pathfinder.Objects.Utils
+﻿namespace Arcane.Pathfinder.Objects.Utils
 {
-     public enum SkillCommon
+    public enum SkillCatalog
     {
         Acrobatics,
         Appraise,
@@ -37,6 +35,5 @@ namespace Arcane.Pathfinder.Objects.Utils
         Survival,
         Swim,
         Use_Magic_Device,
-
     }
 }
