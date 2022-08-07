@@ -1,4 +1,4 @@
-﻿using Arcane.Pathfinder.Characters.Models;
+﻿using Arcane.Pathfinder.Characters.Attributes;
 using Arcane.Pathfinder.Characters.Skills;
 using Arcane.Pathfinder.Characters.Utils;
 
