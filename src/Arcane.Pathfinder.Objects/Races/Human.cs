@@ -1,4 +1,4 @@
-﻿namespace Arcane.Pathfinder.Objects.Races
+﻿namespace Arcane.Pathfinder.Characters.Races
 {
     public class Human
     {

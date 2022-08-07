@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arcane.Pathfinder.Objects", "Arcane.Pathfinder.Objects\Arcane.Pathfinder.Objects.csproj", "{807569A5-4464-43E3-BB32-797FCEB5CF3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arcane.Pathfinder.Characters", "Arcane.Pathfinder.Objects\Arcane.Pathfinder.Characters.csproj", "{807569A5-4464-43E3-BB32-797FCEB5CF3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

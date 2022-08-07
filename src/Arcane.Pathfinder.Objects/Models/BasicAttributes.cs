@@ -1,4 +1,4 @@
-﻿namespace Arcane.Pathfinder.Objects.Models
+﻿namespace Arcane.Pathfinder.Characters.Models
 {
     public class BasicAttributes
     {

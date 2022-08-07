@@ -1,4 +1,4 @@
-﻿namespace Arcane.Pathfinder.Objects.BaseAttackTables
+﻿namespace Arcane.Pathfinder.Characters.BaseAttackTables
 {
     public enum BaseAttackType
     {

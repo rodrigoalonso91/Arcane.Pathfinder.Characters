@@ -1,7 +1,7 @@
-﻿using Arcane.Pathfinder.Objects.Models;
-using Arcane.Pathfinder.Objects.Utils;
+﻿using Arcane.Pathfinder.Characters.Models;
+using Arcane.Pathfinder.Characters.Utils;
 
-namespace Arcane.Pathfinder.Objects.Abstractions
+namespace Arcane.Pathfinder.Characters.Abstractions
 {
     public class Character
     {

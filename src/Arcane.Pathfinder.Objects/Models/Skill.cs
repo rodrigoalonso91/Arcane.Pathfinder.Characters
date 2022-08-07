@@ -1,6 +1,6 @@
-﻿using Arcane.Pathfinder.Objects.Utils;
+﻿using Arcane.Pathfinder.Characters.Utils;
 
-namespace Arcane.Pathfinder.Objects.Models
+namespace Arcane.Pathfinder.Characters.Models
 {
     public class Skill
     {

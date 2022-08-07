@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Arcane.Pathfinder.Objects.BaseAttackTables
+namespace Arcane.Pathfinder.Characters.BaseAttackTables
 {
     public class BaseAttackMedium : BaseAttackTable
     {

@@ -1,4 +1,4 @@
-﻿namespace Arcane.Pathfinder.Objects.Utils
+﻿namespace Arcane.Pathfinder.Characters.Utils
 {
     public enum VisionType
     {
