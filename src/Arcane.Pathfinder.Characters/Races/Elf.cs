@@ -1,10 +1,21 @@
 ﻿using Arcane.Pathfinder.Characters.Models;
+using Arcane.Pathfinder.Characters.Skills;
 using Arcane.Pathfinder.Characters.Utils;
 
 namespace Arcane.Pathfinder.Characters.Races
 {
     public class Elf : Race
     {
+        public List<ISkill> RaceSkillBonus = new()
+        {
+            new RaceSkill()
+            {
+                SkillName = nameof(SkillCatalog.Perception),
+                AttributeModifier = AttributeTypes.Wisdom,
+                Modifier = 2
+            }
+        };
+
         public Elf(int movement)
         {
             Languages = new List<string>() { "Common", "Elf" };
