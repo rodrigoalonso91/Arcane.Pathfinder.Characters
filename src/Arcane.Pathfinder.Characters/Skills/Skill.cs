@@ -1,8 +1,8 @@
 ﻿using Arcane.Pathfinder.Characters.Utils;
 
-namespace Arcane.Pathfinder.Characters.Models
+namespace Arcane.Pathfinder.Characters.Skills
 {
-    public class Skill
+    public class Skill : ISkill
     {
         public string SkillName { get; set; } = string.Empty;
         public AttributeTypes AttributeModifier { get; set; }
@@ -10,6 +10,7 @@ namespace Arcane.Pathfinder.Characters.Models
         public int Ranks { get; set; }
         public int ArmorPenalty { get; set; }
         public bool RequieredTraining { get; set; }
+        public int Modifier { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public Skill(string skillname, AttributeTypes skillAttribute)
         {
