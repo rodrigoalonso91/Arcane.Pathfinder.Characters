@@ -2,7 +2,7 @@
 using Arcane.Pathfinder.Characters.Skills;
 using Arcane.Pathfinder.Characters.Utils;
 
-namespace Arcane.Pathfinder.Characters.Abstractions
+namespace Arcane.Pathfinder.Characters
 {
     public class Character
     {
