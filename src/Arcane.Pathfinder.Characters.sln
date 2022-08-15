@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arcane.Pathfinder.Characters", "Arcane.Pathfinder.Characters\Arcane.Pathfinder.Characters.csproj", "{F4F4A77D-F01C-401D-AD6C-6440697AE0BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arcane.Pathfinder.Characters.Test", "Arcane.Pathfinder.Characters.Test\Arcane.Pathfinder.Characters.Test.csproj", "{E8DBF85D-5019-40D1-90EC-DFB4AD617C62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F4F4A77D-F01C-401D-AD6C-6440697AE0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F4A77D-F01C-401D-AD6C-6440697AE0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F4A77D-F01C-401D-AD6C-6440697AE0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DBF85D-5019-40D1-90EC-DFB4AD617C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DBF85D-5019-40D1-90EC-DFB4AD617C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DBF85D-5019-40D1-90EC-DFB4AD617C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DBF85D-5019-40D1-90EC-DFB4AD617C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
