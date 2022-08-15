@@ -36,8 +36,19 @@ namespace Arcane.Pathfinder.Characters.Test.Skills
         }
 
         [Fact]
-        public void ShouldThrow_ArgumentException()
+        public void SkillNames_ShouldBe_Equals()
         {
+            var skillName = nameof(SkillCatalog.Acrobatics);
+            var skillParams = new SkillParam
+            {
+                SkillName = skillName,
+                AttributeModifier = AttributeTypes.Dexterity,
+                SkillType = SkillType.Normal
+            };
+
+            var result = SkillFactory.Create(skillParams);
+
+            Assert.True(result.SkillName == skillName);
         }
     }
 }
