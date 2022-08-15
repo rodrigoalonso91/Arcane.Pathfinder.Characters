@@ -1,7 +1,7 @@
 using Arcane.Pathfinder.Characters.Skills;
 using Arcane.Pathfinder.Characters.Utils;
 
-namespace Arcane.Pathfinder.Characters.Test
+namespace Arcane.Pathfinder.Characters.Test.Skills
 {
     public class SkillFactoryTest
     {
