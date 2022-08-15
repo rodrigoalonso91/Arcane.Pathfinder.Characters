@@ -2,10 +2,10 @@
 
 namespace Arcane.Pathfinder.Characters.Skills
 {
-    public class RaceSkill : ISkill
+    public class SkillParam : ISkill
     {
         public string SkillName { get; set; } = string.Empty;
-        public AttributeTypes AttributeModifier { get; set ; }
-        public int Modifier { get ; set; }
+        public AttributeTypes AttributeModifier { get; set; }   
+        public SkillType SkillType { get; set; }
     }
 }
