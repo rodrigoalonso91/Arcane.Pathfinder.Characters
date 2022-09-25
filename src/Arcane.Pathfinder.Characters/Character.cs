@@ -1,6 +1,7 @@
 ﻿using Arcane.Pathfinder.Characters.Attributes;
 using Arcane.Pathfinder.Characters.Skills;
 using Arcane.Pathfinder.Characters.Utils;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Arcane.Pathfinder.Characters
 {
@@ -11,6 +12,8 @@ namespace Arcane.Pathfinder.Characters
         public int Level { get; private set; } = 1;
         public int Experience { get; private set; } = 0;
         public int HitDice { get; private set; }
+        public int HitPoints { get; private set; }
+        public int ActualHitPoints { get; set; }
         public int HeroPoints { get; set; }
         public int BasicAttack { get; set; }
         public BasicAttributes CharacterAttributes { get; set; } = new();
