@@ -11,13 +11,13 @@ namespace Arcane.Pathfinder.Characters.Builder
         public WarriorBuilder(string characterName, string playerName, int hitDice)
         {
             Reset();
-            _character.PlayerName = playerName;
-            _character.CharacterName = characterName;
+            _character.PlayerName = playerName.Trim();
+            _character.CharacterName = characterName.Trim();
             _character.LevelUp();
             _character.IncrementHitDice(hitDice);
         }
 
-        public void Reset()
+        private void Reset()
         {
             _character = new Character();
         }

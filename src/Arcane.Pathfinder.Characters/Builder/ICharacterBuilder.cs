@@ -9,5 +9,6 @@ namespace Arcane.Pathfinder.Characters.Builder
         void AddBasicAttributes(BasicAttributes attributes);
         void AddRace(Race race);
         void AddSkills(IEnumerable<Skill> skills);
+        Character GetCharacter();
     }
 }
